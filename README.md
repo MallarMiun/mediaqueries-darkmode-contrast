@@ -9,8 +9,11 @@ Fungerar på samma sätt som ovan men känner istället av om användaren har st
 
 **För att ändra till mörkt läge för:**
 - Mac - systeminställningar -> allmänt -> utseende.
-- Windows - start -> inställningar -> anpassning -> teman -> temainställningar
+- Windows - inställningar -> anpassning -> teman -> temainställningar
 
+**För att ändra högkontrast för:**
+- Mac - systeminställningar -> hjälpmedel -> bildskärm -> öka kontrast
+- Windows - inställningar -> hjälpmedel -> högkontrast
 
 
 /Malin Larsson, Mittuniversitetet
