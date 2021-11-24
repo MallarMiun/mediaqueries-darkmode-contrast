@@ -1,0 +1,134 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+html {
+    font-size: 62.5%;
+}
+
+/*texter*/
+p {
+    line-height: 1.6em;
+
+}
+
+h2, h3, h4, h5, h6 {
+    padding-top: 0.5em;
+    margin-bottom: -5px;
+}
+
+main ul {
+    line-height: 1.6em;
+}
+
+main ul li {
+    margin: 0.5em 0;
+}
+
+/*Struktur*/
+body {
+    background-color: #f3eed9;
+    font-size: 1.8rem;
+}
+
+header {
+    background-color: #dbd4b8;
+    padding-top: 6rem;
+}
+
+main, nav, footer {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header h1 {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto 2rem;
+    display: block;
+}
+
+nav {
+    background-color: #DC9750;
+    padding: 2.5rem 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 0 0 -40px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0;
+}
+
+nav a {
+    height: 100%;
+    padding: 2.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+}
+
+.current {
+    background-color: #922C40;
+}
+
+main {
+    background-color: white;
+}
+
+article {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 3rem 5rem;
+}
+
+footer {
+    background-color: #DC9750;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+
+/*Media Queries*/
+
+/*Mörkt-tema*/
+@media (prefers-color-scheme: dark) {
+    header {
+        background-color: #1E2640;
+    }
+
+    body {
+        background-color: #2b3557;
+
+    }
+    nav, footer {
+        background-color: #922C40;
+
+    }
+    .current {
+        background-color: #DC9750;
+    }
+    main {
+        color: #f3eed9;
+        background-color: #1E2640;
+    }
+
+    header h1 {
+        color: #f3eed9;
+    }
+}
+
+/*Hög kontrast*/
+@media (prefers-contrast: more) {
+    nav, footer {
+        background-color: rgb(58, 58, 58);
+    }
+    .current {
+        background-color: black;
+
+    }
+}
